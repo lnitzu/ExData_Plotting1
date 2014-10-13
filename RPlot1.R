@@ -1,4 +1,4 @@
-setwd("C:\\Users\\lnitu\\Documents\\COURSES\\COURSERA\\ExploratoryDataAnalysis\\exdata_data_household_power_consumption")
+
 epc<-read.csv('household_power_consumption.txt', sep=';')
 
 wd<-as.Date(epc$Date, "%d/%m/%Y")
