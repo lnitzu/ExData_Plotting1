@@ -17,6 +17,8 @@ with (myData, {
   plot (DateTime, Sub_metering_1, type="l", col="black", xlab="", ylim=c(0,34), ylab="Energy sub metering")
   lines (DateTime, Sub_metering_2, type="l", col="red")
   lines (DateTime,Sub_metering_3, type="l", col="blue" )
+  legend("topright",lty=c(1,1,1), col=c("black","red","blue"), legend=c("Sub_Metering_1", "Sub_metering_2", "Sub_metering_3"))
+  
 })
 dev.off()
 
